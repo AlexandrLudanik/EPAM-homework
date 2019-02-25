@@ -178,7 +178,7 @@ public class Test extends WebDriverSettings {
         calculatorPage.clickOnDropdownListCommitedUsage();
         calculatorPage.choose1year();
         calculatorPage.clickButtonAddToEstimate();
-        Assert.assertEquals("Total Estimated Cost: USD 1,576.76 per 1 month ", calculatorPage.getTotalEstimatedCost());
+        Assert.assertEquals("Total Estimated Cost: USD 1,187.77 per 1 month", calculatorPage.getTotalEstimatedCost());
     }
 
     @org.junit.Test
@@ -213,7 +213,7 @@ public class Test extends WebDriverSettings {
         calculatorPage.clickOnDropdownListCommitedUsage();
         calculatorPage.choose1year();
         calculatorPage.clickButtonAddToEstimate();
-        String totalCost = calculatorPage.getTotalEstimatedCost();
+        String totalCost = calculatorPage.getTotalEstimatedCost().substring(22,35);
         calculatorPage.clickEmailEstimateButton();
         String mainTab = calculatorPage.nameTab();
         calculatorPage.openNewTab();
