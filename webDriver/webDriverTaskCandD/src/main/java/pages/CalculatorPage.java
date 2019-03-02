@@ -1,5 +1,4 @@
 package pages;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -206,7 +205,6 @@ public class CalculatorPage {
     }
 
     public void chooseFrankfurtEuropeWest3() {
-
         frankfurtEuropeWest3Option.click();
     }
 
@@ -260,7 +258,6 @@ public class CalculatorPage {
 
     public void openNewTab() {
         ((ChromeDriver) driver).executeScript("window.open()");
-
     }
 
     public void swithTab(){

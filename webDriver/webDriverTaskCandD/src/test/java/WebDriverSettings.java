@@ -31,11 +31,5 @@ public class WebDriverSettings {
                         driver = null;
                     }
                 }));
-
-//        Runtime.getRuntime().addShutdownHook(
-//                new Thread(() -> {
-//                    driver.quit();
-//                    driver = null;
-//                }));
     }
 }

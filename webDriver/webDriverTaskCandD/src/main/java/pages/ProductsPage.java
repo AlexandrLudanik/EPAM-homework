@@ -20,6 +20,5 @@ public class ProductsPage {
     public PricingPage clickSeeePriceButton() {
         seePriceButton.click();
         return new PricingPage(driver);
-
     }
 }
