@@ -9,6 +9,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.concurrent.TimeUnit;
+
 public class CalculatorPage {
 
     private WebDriver driver;
@@ -46,16 +48,16 @@ public class CalculatorPage {
     @FindBy(xpath = "//*[@id='select_option_70']/div[1]")
     private WebElement n1Standard8vCPUs8RAM30GbOption;
 
-    @FindBy(xpath = "//md-input-container/md-checkbox")
+    @FindBy(xpath = "//*[@aria-label='Add GPUs']")
     private WebElement addGPUsCheckbox;
 
-    @FindBy(xpath = "//*[@id='select_value_label_319']")
+    @FindBy(xpath = "//*[@placeholder=\"Number of GPUs\"]")
     private WebElement numberOfGPUsDropDownList;
 
     @FindBy(xpath = "//div[text()='1']")
     private WebElement gpuOption;
 
-    @FindBy(xpath = "//*[@id=\"select_value_label_320\"]")
+    @FindBy(xpath = "//*[@placeholder=\"GPU type\"]")
     private WebElement gpuTypeDropDownList;
 
     @FindBy(xpath = "//div[text()='NVIDIA Tesla V100']")
@@ -110,13 +112,13 @@ public class CalculatorPage {
     @FindBy(xpath = "//*[@id='mailAddress']")
     private WebElement emailAddress;
 
-    @FindBy(xpath = "//*[@id=\"input_372\"]")
+    @FindBy(xpath = "//input[@type='email']")
     private WebElement emailField;
 
-    @FindBy(xpath = "//*[@id=\"dialogContent_378\"]/form/md-dialog-actions/button[2]")
+    @FindBy(xpath = "//button[@aria-label='Send Email']")
     private WebElement sendEmailButton;
 
-    @FindBy(xpath = "//*[@id=\"ui-id-1\"]/span[3]")
+    @FindBy(xpath = "//[@id='ui-id-1']/span[@class='inc-mail-address']")
     private WebElement infoLineAboutLetter;
 
     @FindBy(xpath = "//*[@id=\"messagesList\"]")
@@ -200,7 +202,7 @@ public class CalculatorPage {
     }
 
     public void clickOnDropdownListDatacenterLocation() {
-        datacenterLocationDropDownList.click();
+        new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOf(datacenterLocationDropDownList)).click();
     }
 
     public void chooseFrankfurtEuropeWest3() {
@@ -273,14 +275,12 @@ public class CalculatorPage {
     }
 
     public void sendLetter(String address) {
-        ((ChromeDriver) driver).executeScript("window.open()");
         String firstTab = driver.getWindowHandle();
-        for (String tab : driver.getWindowHandles()) {
-            driver.switchTo().window(tab);
-        }
+        openNewTab();
+        swithTab();
         String secondTab = driver.getWindowHandle();
         driver.get(address);
-        String email = saveEnailAddress();
+        String email = saveEmailAddress();
         driver.switchTo().window(firstTab);
         enterIntoFrame();
         inputEmailAdderess(email);
@@ -288,13 +288,11 @@ public class CalculatorPage {
         driver.switchTo().window(secondTab);
     }
 
-    public String saveEnailAddress() {
+    public String saveEmailAddress() {
         return emailAddress.getAttribute("value");
     }
 
     public void inputEmailAdderess(String address) {
-        new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOf(emailField));
-
         emailField.sendKeys(address);
     }
 
@@ -302,19 +300,20 @@ public class CalculatorPage {
         sendEmailButton.click();
     }
 
-    public void clickOnLetter() {
-        new WebDriverWait(driver, 60).until(ExpectedConditions.visibilityOf(infoLineAboutLetter));
-        incomingLetter.click();
-    }
 
     public String getTotalEstimatedMonthlyCostFromLetter() {
         new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(logoInTable));
-        return totalEstimatedMonthlyCostIneLetter.getText();
+        return totalEstimatedMonthlyCostIneLetter.getText().substring(0,12);
     }
 
     public void clickOnIncomingLetter() {
-        new WebDriverWait(driver, 60).until(ExpectedConditions.elementToBeClickable(incomingLetter));
-        incomingLetter.click();
+        new WebDriverWait(driver, 60).until(ExpectedConditions.elementToBeClickable(infoLineAboutLetter));
+        try {
+            TimeUnit.SECONDS.sleep(15);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        infoLineAboutLetter.click();
 
     }
     public void switchTabString(String tab){

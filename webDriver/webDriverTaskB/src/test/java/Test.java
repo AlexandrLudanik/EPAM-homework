@@ -1,4 +1,4 @@
-import org.junit.Assert;
+import org.testng.Assert;
 
 public class Test extends WebDriverSettings {
 
@@ -7,7 +7,7 @@ public class Test extends WebDriverSettings {
     public MainPage mainPage;
 
 
-    @org.junit.Test
+    @org.testng.annotations.Test
     public void checkText() {
 
         mainPage = new MainPage(driver);
@@ -21,7 +21,7 @@ public class Test extends WebDriverSettings {
         Assert.assertEquals(text, mainPage.getRAWPasteArea());
     }
 
-    @org.junit.Test
+    @org.testng.annotations.Test
     public void checkTitle() {
 
         mainPage = new MainPage(driver);

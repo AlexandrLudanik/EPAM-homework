@@ -1,4 +1,4 @@
-import org.junit.Assert;
+import org.testng.Assert;
 import pages.CalculatorPage;
 import pages.MainPage;
 import pages.PricingPage;
@@ -6,7 +6,7 @@ import pages.ProductsPage;
 
 public class Test extends WebDriverSettings {
 
-    @org.junit.Test
+    @org.testng.annotations.Test
     public void checkVMClassText() {
         mainPage = new MainPage(driver);
         pricingPage = new PricingPage(driver);
@@ -41,7 +41,7 @@ public class Test extends WebDriverSettings {
         Assert.assertEquals("VM class: regular", calculatorPage.getVmClass());
     }
 
-    @org.junit.Test
+    @org.testng.annotations.Test
     public void checkInstanceType() {
         mainPage = new MainPage(driver);
         pricingPage = new PricingPage(driver);
@@ -76,7 +76,7 @@ public class Test extends WebDriverSettings {
         Assert.assertEquals("Instance type: n1-standard-8", calculatorPage.getInstanceType());
     }
 
-    @org.junit.Test
+    @org.testng.annotations.Test
     public void checkRegion() {
         mainPage = new MainPage(driver);
         pricingPage = new PricingPage(driver);
@@ -111,7 +111,7 @@ public class Test extends WebDriverSettings {
         Assert.assertEquals("Region: Frankfurt", calculatorPage.getRegion());
     }
 
-    @org.junit.Test
+    @org.testng.annotations.Test
     public void checkTotalAvailableSpaseSSD() {
         mainPage = new MainPage(driver);
         pricingPage = new PricingPage(driver);
@@ -146,7 +146,7 @@ public class Test extends WebDriverSettings {
         Assert.assertEquals("Total available local SSD space 2x375 GB", calculatorPage.getTotalAvailaleLocalSSDspace());
     }
 
-    @org.junit.Test
+    @org.testng.annotations.Test
     public void checkTotalEstimatedCost() {
         mainPage = new MainPage(driver);
         pricingPage = new PricingPage(driver);
@@ -181,7 +181,7 @@ public class Test extends WebDriverSettings {
         Assert.assertEquals("Total Estimated Cost: USD 1,187.77 per 1 month", calculatorPage.getTotalEstimatedCost());
     }
 
-    @org.junit.Test
+    @org.testng.annotations.Test
     public void checkTotalEstimatedCostInLetter() {
         mainPage = new MainPage(driver);
         pricingPage = new PricingPage(driver);
@@ -213,19 +213,9 @@ public class Test extends WebDriverSettings {
         calculatorPage.clickOnDropdownListCommitedUsage();
         calculatorPage.choose1year();
         calculatorPage.clickButtonAddToEstimate();
-        String totalCost = calculatorPage.getTotalEstimatedCost().substring(22,35);
+        String totalCost = calculatorPage.getTotalEstimatedCost().substring(22, 35);
         calculatorPage.clickEmailEstimateButton();
-        String mainTab = calculatorPage.nameTab();
-        calculatorPage.openNewTab();
-        calculatorPage.swithTab();
-        calculatorPage.setAddress("https://10minutemail.com");
-        String secondTab = calculatorPage.nameTab();
-        String generateAddress = calculatorPage.saveEnailAddress();
-        calculatorPage.switchTabString(mainTab);
-        calculatorPage.enterIntoFrame();
-        calculatorPage.inputEmailAdderess(generateAddress);
-        calculatorPage.clickSendEmailButton();
-        calculatorPage.switchTabString(secondTab);
+        calculatorPage.sendLetter("https://10minutemail.com");
         calculatorPage.clickOnIncomingLetter();
         String infoINLetter = calculatorPage.getTotalEstimatedMonthlyCostFromLetter();
         Assert.assertEquals(totalCost, infoINLetter);

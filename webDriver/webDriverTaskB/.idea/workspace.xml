@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03047205-6c90-4d43-921c-870ab4a17c02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ldbc_lessons/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldbc_lessons/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldbc_lessons/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldbc_lessons/src/TestConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ldbc_lessons/src/books.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TaskB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebDriverSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebDriverSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TaskB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebDriverSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebDriverSettings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../webDriverTaskC/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webDriverTaskC/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../webDriverTaskC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webDriverTaskC/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../webDriverTaskC/src/main/java/pages/CalculatorPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webDriverTaskC/src/main/java/pages/CalculatorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriverTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webdriverTask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriverTask/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../webdriverTask/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdriverTask/webdriverTask.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,20 +34,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <marker date="1551568643539" expanded="true" signature="484:499" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+            <state relative-caret-position="238">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="21" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -40,20 +70,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="731">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1600#1601#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/testng.xml" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/CheckTitleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebDriverSettings.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="50" />
-    <option name="y" value="15" />
+    <option name="x" value="430" />
+    <option name="y" value="71" />
     <option name="width" value="1400" />
     <option name="height" value="785" />
   </component>
@@ -64,7 +124,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,18 +166,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550795028004" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551568834606" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\data\EPAM-study\homeworkWebDriver\webDriverTaskB" />
+      <recent name="D:\data\EPAM-study\homeworkWebDriver\webDriverTaskB\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Test">
     <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webDriverTaskB" />
       <option name="PACKAGE_NAME" value="" />
@@ -142,8 +208,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webDriverTaskB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckTitleTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webDriverTaskB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.checkTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webDriverTaskB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="checkTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webDriverTaskB" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test" />
+        <item itemvalue="TestNG.Test.checkTitle" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.CheckTitleTest" />
         <item itemvalue="JUnit.Test" />
       </list>
     </recent_temporary>
@@ -167,22 +279,53 @@
       <workItem from="1550799111086" duration="794000" />
       <workItem from="1550821368210" duration="842000" />
       <workItem from="1551129120103" duration="29000" />
+      <workItem from="1551455580689" duration="69000" />
+      <workItem from="1551458048462" duration="8235000" />
+      <workItem from="1551539350612" duration="738000" />
+      <workItem from="1551568454982" duration="283000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test - 2019.02.20 at 04h 21m 48s.xml">
-      <configuration name="Test" configurationId="JUnit" />
+    <history-entry file="CheckTitleTest - 2019.03.02 at 03h 40m 49s.xml">
+      <configuration name="CheckTitleTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_default_ - 2019.03.02 at 03h 41m 50s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test - 2019.03.02 at 03h 46m 09s.xml">
+      <configuration name="Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_checkTitle - 2019.03.02 at 03h 47m 22s.xml">
+      <configuration name="Test.checkTitle" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_checkTitle - 2019.03.02 at 03h 48m 11s.xml">
+      <configuration name="Test.checkTitle" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test_checkTitle - 2019.03.02 at 03h 49m 01s.xml">
+      <configuration name="Test.checkTitle" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test - 2019.03.02 at 03h 50m 08s.xml">
+      <configuration name="Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test - 2019.03.02 at 15h 16m 21s.xml">
+      <configuration name="Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test - 2019.03.02 at 15h 17m 36s.xml">
+      <configuration name="Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Test - 2019.03.02 at 15h 20m 10s.xml">
+      <configuration name="Test" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5629000" />
+    <option name="totallyTimeSpent" value="14954000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14026846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -192,7 +335,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297546" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -200,7 +343,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3297546" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -219,24 +362,54 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/TaskB.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverSettings.java">
+    <entry file="file://$PROJECT_DIR$/allure-results/a7999d54-45e2-46a8-80ac-bc994dde7d8f-result.json" />
+    <entry file="file://$PROJECT_DIR$/allure-results/427175dc-f72e-47f9-ada4-a83032592bc5-container.json" />
+    <entry file="file://$PROJECT_DIR$/allure-results/89b6e4fa-0600-4f83-aee5-66973d2bd5ca-container.json" />
+    <entry file="file://$PROJECT_DIR$/allure-results/a9d14130-42a8-4f32-8f9e-308666e46446-container.json" />
+    <entry file="file://$PROJECT_DIR$/testng.xml" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="313">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CheckTitleTest.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="10" selection-start-column="4" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="731">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="238">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <marker date="1551568643539" expanded="true" signature="484:499" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

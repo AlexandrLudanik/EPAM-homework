@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="180" selection-start-line="180" selection-end-line="180" />
+            <state relative-caret-position="124">
+              <caret line="217" column="28" selection-start-line="217" selection-start-column="28" selection-end-line="217" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,19 +27,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="498">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/CalculatorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
-              <caret line="268" lean-forward="true" selection-start-line="268" selection-end-line="268" />
+            <state relative-caret-position="262">
+              <caret line="279" column="19" selection-start-line="279" selection-start-column="19" selection-end-line="279" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5536#5537#0" expanded="true" />
+                <element signature="e#5575#5576#0" expanded="true" />
+                <element signature="e#8596#8597#0" expanded="true" />
+                <element signature="e#8653#8654#0" expanded="true" />
+                <element signature="e#8704#8705#0" expanded="true" />
+                <element signature="e#8748#8749#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +81,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverSettings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="124">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,13 +102,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/PricingPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/CalculatorPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MinutePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WebDriverSettings.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/CalculatorPage.java" />
       </list>
     </option>
   </component>
@@ -111,8 +121,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="50" />
-    <option name="y" value="15" />
+    <option name="x" value="430" />
+    <option name="y" value="71" />
     <option name="width" value="1400" />
     <option name="height" value="785" />
   </component>
@@ -121,7 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,13 +182,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551130842002" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551569333114" />
     <property name="last_opened_file_path" value="D:/Test-Examples-For-CV-master/MailJUnitTestForCV" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,26 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.checkTotalEstimatedCost">
-    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webDriverTaskD" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.checkTotalAvailableSpaseSSD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webDriverTaskD" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="checkTotalAvailableSpaseSSD" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Test.checkTotalEstimatedCostInLetter">
     <configuration name="Test.checkTotalEstimatedCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webDriverTaskD" />
       <option name="PACKAGE_NAME" value="" />
@@ -229,33 +220,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.checkTotalEstimatedCostInLetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webDriverTaskD" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <option name="METHOD_NAME" value="checkTotalEstimatedCostInLetter" />
-      <option name="TEST_OBJECT" value="method" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.checkVMClassText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.checkInstanceType" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webDriverTaskD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="checkInstanceType" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.checkTotalEstimatedCostInLetter" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webDriverTaskD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="checkTotalEstimatedCostInLetter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.checkVMClassText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webDriverTaskD" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="checkVMClassText" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Test.checkTotalEstimatedCostInLetter" />
+        <item itemvalue="TestNG.Test.checkVMClassText" />
+        <item itemvalue="TestNG.Test.checkInstanceType" />
+        <item itemvalue="TestNG.Test" />
         <item itemvalue="JUnit.Test.checkTotalEstimatedCost" />
-        <item itemvalue="JUnit.Test" />
-        <item itemvalue="JUnit.Test.checkTotalEstimatedCostInLetter" />
-        <item itemvalue="JUnit.Test.checkVMClassText" />
-        <item itemvalue="JUnit.Test.checkTotalAvailableSpaseSSD" />
       </list>
     </recent_temporary>
   </component>
@@ -276,50 +293,58 @@
       <workItem from="1550955406440" duration="4333000" />
       <workItem from="1550992200874" duration="7010000" />
       <workItem from="1551127686084" duration="598000" />
-      <workItem from="1551129509244" duration="1171000" />
+      <workItem from="1551129509244" duration="1914000" />
+      <workItem from="1551186728193" duration="149000" />
+      <workItem from="1551302523892" duration="1260000" />
+      <workItem from="1551338176272" duration="1125000" />
+      <workItem from="1551458028089" duration="15000" />
+      <workItem from="1551458203970" duration="3238000" />
+      <workItem from="1551528597282" duration="745000" />
+      <workItem from="1551529738936" duration="10245000" />
+      <workItem from="1551565429399" duration="3559000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.02.25 at 12h 37m 42s.xml">
-      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="JUnit" />
+    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.03.02 at 14h 36m 48s.xml">
+      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.02.25 at 12h 38m 37s.xml">
-      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="JUnit" />
+    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.03.02 at 14h 38m 49s.xml">
+      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.02.25 at 12h 41m 06s.xml">
-      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="JUnit" />
+    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.03.02 at 14h 40m 07s.xml">
+      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.02.25 at 12h 42m 15s.xml">
-      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="JUnit" />
+    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.03.02 at 14h 41m 16s.xml">
+      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.02.25 at 13h 21m 39s.xml">
-      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="JUnit" />
+    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.03.02 at 14h 43m 23s.xml">
+      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.02.25 at 13h 30m 15s.xml">
-      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="JUnit" />
+    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.03.02 at 14h 47m 07s.xml">
+      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.02.25 at 13h 31m 31s.xml">
-      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="JUnit" />
+    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.03.02 at 14h 48m 06s.xml">
+      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.02.25 at 13h 33m 50s.xml">
-      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="JUnit" />
+    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.03.02 at 14h 55m 58s.xml">
+      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.02.25 at 13h 35m 13s.xml">
-      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="JUnit" />
+    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.03.02 at 14h 56m 57s.xml">
+      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test - 2019.02.25 at 13h 38m 40s.xml">
-      <configuration name="Test" configurationId="JUnit" />
+    <history-entry file="Test_checkTotalEstimatedCostInLetter - 2019.03.02 at 15h 25m 23s.xml">
+      <configuration name="Test.checkTotalEstimatedCostInLetter" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29182000" />
+    <option name="totallyTimeSpent" value="50261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19664429" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -329,7 +354,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4674221" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -337,7 +362,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32577905" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -477,13 +502,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MinutePage.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -507,27 +526,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CalculatorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
-          <caret line="268" lean-forward="true" selection-start-line="268" selection-end-line="268" />
+        <state relative-caret-position="124">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/testng.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="180" selection-start-line="180" selection-end-line="180" />
+        <state relative-caret-position="124">
+          <caret line="217" column="28" selection-start-line="217" selection-start-column="28" selection-end-line="217" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/CalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="279" column="19" selection-start-line="279" selection-start-column="19" selection-end-line="279" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5536#5537#0" expanded="true" />
+            <element signature="e#5575#5576#0" expanded="true" />
+            <element signature="e#8596#8597#0" expanded="true" />
+            <element signature="e#8653#8654#0" expanded="true" />
+            <element signature="e#8704#8705#0" expanded="true" />
+            <element signature="e#8748#8749#0" expanded="true" />
           </folding>
         </state>
       </provider>

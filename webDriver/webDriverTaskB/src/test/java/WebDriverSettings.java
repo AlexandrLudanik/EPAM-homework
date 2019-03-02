@@ -1,39 +1,24 @@
-import org.junit.After;
-import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.*;
+
+import java.util.concurrent.TimeUnit;
 
 public class WebDriverSettings {
 
-    public static WebDriver driver;
+    public WebDriver driver;
 
 
-    @Before
+    @BeforeMethod
     public void setUp() {
-        if (driver != null) {
-            return;
-        }
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-
-        Runtime.getRuntime().addShutdownHook(
-                new Thread(() -> {
-                    driver.quit();
-                    driver = null;
-                }));
-
-//        Runtime.getRuntime().addShutdownHook(
-//                new Thread(new Runnable() {
-//                    public void run() {
-//                        driver.quit();
-//                        driver = null;
-//                    }
-//                }));
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
 
-    @After
+    @AfterMethod
     public void tearDown() {
-//        driver.close();
+        driver.close();
     }
 }
